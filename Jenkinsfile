@@ -18,5 +18,18 @@ pipeline{
                 git branch: 'main',credentialsId: 'github-credentials', url: 'https://github.com/isaacfkessler/devops-cicd-application' // this step specified branch, and credentials and git repository url
             }
         }
+
+        stage("Build App"){
+            steps{
+                sh "mvn clean package"
+            }
+        }
+
+        stage("Test App"){
+            steps{
+                sh "mvn test"
+            }
+        } 
+        }
     }    
 }
