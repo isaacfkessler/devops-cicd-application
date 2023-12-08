@@ -17,7 +17,7 @@ pipeline{
     stages{
         stage("Checkout from SCM"){
             steps{
-                git branch: 'main',l credentialsId: 'github-credentials', url: 'https://github.com/isaacfkessler/devops-cicd-application' // this step specified branch, and credentials and git repository url
+                git branch: 'main', credentialsId: 'github-credentials', url: 'https://github.com/isaacfkessler/devops-cicd-application' // this step specified branch, and credentials and git repository url
             }
         }
     }    
