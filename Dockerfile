@@ -3,7 +3,7 @@ WORKDIR /app
 COPY . .
 RUN mvn clean install
 
-FROM eclipse-terumin:17.0.6_10-jdk
+FROM eclipse-temurin:17.0.6_10-jdk
 WORKDIR /app
 COPY --from=build /app/target/demoapp.jar /apps/
 EXPOSE 8080
