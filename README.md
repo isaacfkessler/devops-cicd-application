@@ -1,6 +1,9 @@
 # Sample application for DevOps Pipeline
 ## This is a sample application to demonstrate an end to end DevOps Pipeline
 
+![image](https://github.com/isaacfkessler/devops-cicd-application/assets/93961922/9fc6965a-9653-43b2-9e13-5b46dbbb056b)
+
+
 CI/CD Pipeline Documentation
 Overview
 
