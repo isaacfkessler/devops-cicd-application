@@ -63,9 +63,8 @@ Versioning
 The versioning follows the Jenkins build version. The Docker image and codebase are tagged with the same version to maintain consistency.
 Environment Variables
 
-    DOCKER_HUB_USERNAME: Docker Hub username for image push.
-    DOCKER_HUB_PASSWORD: Docker Hub password for image push.
-    SONARQUBE_TOKEN: Token for SonarQube authentication.
+    DOCKER_USER: Docker Hub username for image push.
+    DOCKER_PASSWORD: Docker Hub password for image push.
 
 Conclusion
 
